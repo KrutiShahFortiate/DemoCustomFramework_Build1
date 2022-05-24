@@ -11,6 +11,7 @@
 		18F8824D283CE700002FEAA8 /* DemoCustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F88242283CE700002FEAA8 /* DemoCustomFramework.framework */; };
 		18F88252283CE700002FEAA8 /* DemoCustomFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F88251283CE700002FEAA8 /* DemoCustomFrameworkTests.swift */; };
 		18F88253283CE700002FEAA8 /* DemoCustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F88245283CE700002FEAA8 /* DemoCustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F8825D283CE750002FEAA8 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8825C283CE750002FEAA8 /* SDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		18F88246283CE700002FEAA8 /* DemoCustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DemoCustomFramework.docc; sourceTree = "<group>"; };
 		18F8824C283CE700002FEAA8 /* DemoCustomFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCustomFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F88251283CE700002FEAA8 /* DemoCustomFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCustomFrameworkTests.swift; sourceTree = "<group>"; };
+		18F8825C283CE750002FEAA8 /* SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				18F88245283CE700002FEAA8 /* DemoCustomFramework.h */,
+				18F8825C283CE750002FEAA8 /* SDK.swift */,
 				18F88246283CE700002FEAA8 /* DemoCustomFramework.docc */,
 			);
 			path = DemoCustomFramework;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F8825D283CE750002FEAA8 /* SDK.swift in Sources */,
 				18F88247283CE700002FEAA8 /* DemoCustomFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 		18F8825A283CE700002FEAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78Y4SLAMYU;
@@ -412,6 +417,7 @@
 		18F8825B283CE700002FEAA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 78Y4SLAMYU;
